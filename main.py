@@ -19,6 +19,14 @@ if __name__ == '__main__':
     parser.add_argument('output', type=str)
 
     args = parser.parse_args()
+
+    if not os.path.exists(os.getcwd() + '\\logs'):
+        os.makedirs(os.getcwd() + 'logs')
+        os.makedirs(os.getcwd() + 'logs\\html')
+        os.makedirs(os.getcwd() + 'logs\\img')
+        os.makedirs(os.getcwd() + 'logs\\pdf')
+        os.makedirs(os.getcwd() + 'logs\\spreadsheet')
+
     for dirs in os.listdir('logs'):
 
         DataOps.clean_dir(f'{os.getcwd()}\\logs\\{dirs}')
