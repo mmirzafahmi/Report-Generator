@@ -1,0 +1,14 @@
+excel2img==1.4.0
+numpy==1.19.4
+openpyxl==3.0.5
+pandas==1.1.4
+pdfkit==0.6.1
+pdfrw==0.4
+Pillow==8.0.1
+PyPDF2==1.26.0
+pypiwin32==223
+python-dateutil==2.8.1
+python-docx==0.8.10
+pyunpack==0.2.2
+pywin32==300
+xlrd==1.2.0
